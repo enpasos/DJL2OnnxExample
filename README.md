@@ -42,7 +42,7 @@ Our steps to get it running for the example:
 Three modules separate the tasks:
 * **onnxModelGen** (Java): Defines and trains the model in DJL and then exports it to  ```mnist.onnx```
 * **onnxWithRuntime** (Java) Tests the model using ONNX/Pytorch hybrid DJL runtime.
-* **onnxruntime-web-demo** (Vue.js - Javascript...): Just a copy of (https://github.com/Microsoft/onnxruntime-web-demo)[https://github.com/Microsoft/onnxruntime-web-demo] 
+* **onnxruntime-web-demo** (Vue.js - Javascript...): Just a copy of [https://github.com/Microsoft/onnxruntime-web-demo](https://github.com/Microsoft/onnxruntime-web-demo) 
 
 Get it running in steps
 
