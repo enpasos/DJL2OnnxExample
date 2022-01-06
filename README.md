@@ -1,7 +1,5 @@
 # Brain Dump Example: DJL -> ONNX -> ONNX Runtime Web
 
-## About what?
-
 Suppose you
 * set up a model in DJL (writing Java code only) and trained it with some supported engine (e.g. Pytorch)
 * want to load the model into a browser for inference using ONNX Runtime Web.
