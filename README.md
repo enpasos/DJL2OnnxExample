@@ -32,7 +32,7 @@ Java functions defined within your code. When saving a model from DJL the normal
 To our knowledge exporting an ONNX model from this scenario is not supported by now.
 
 Our steps to get it running for the example: 
-* Starting point are the protobuffer version 3 schema files defining the ONNX IR (https://github.com/onnx/onnx/blob/master/docs/IR.md) from ONNX Release, 1.10.2.
+* Starting point are the protobuffer version 3 schema files defining the [ONNX IR](https://github.com/onnx/onnx/blob/master/docs/IR.md) from ONNX Release, 1.10.2.
 * From these schema files we on the fly generate Google protobuffer Java files using [Protocol Buffers protobuf maven plugin](https://github.com/os72/protoc-jar-maven-plugin) 
 * The translation of structure and parameters is attached to the standard model blocks by naively extending each block ... experts from the DJL community likely know better how to do this nicely.
 
