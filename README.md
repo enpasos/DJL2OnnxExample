@@ -44,6 +44,8 @@ Three modules separate the tasks:
 * **onnxWithRuntime** (Java) Tests the model using ONNX/Pytorch hybrid DJL runtime.
 * **onnxruntime-web-demo** (Vue.js - Javascript...): Just a copy of (https://github.com/Microsoft/onnxruntime-web-demo)[https://github.com/Microsoft/onnxruntime-web-demo] 
 
+Get it running in steps
+
 1. build the Java projects 
 ```
     mvn clean install
