@@ -6,14 +6,13 @@ Suppose you
 * set up a model in DJL (writing Java code only) and trained it with some supported engine (e.g. Pytorch)
 * want to load the model into a browser for inference using ONNX Runtime Web.
 
-## What is this project?
+## Purpose of this project
 
-It is just an example on how to do it for a simple MNIST classification model.
+This is just an example on how to do the ONNX export for a simple MNIST classification model in DJL.
 
-## How is it achieved here?
+## How?
 
-Let's start with the "hello world"  
-[DJL - MNIST training example](https://github.com/deepjavalibrary/djl/blob/master/jupyter/tutorial/02_train_your_first_model.ipynb).
+Let's start with the "hello world" [DJL - MNIST training example](https://github.com/deepjavalibrary/djl/blob/master/jupyter/tutorial/02_train_your_first_model.ipynb).
 Use it with a basic model defined with DJL blocks inside the java code ... not one defined elsewhere.
 
 Add an export functionality (non standard, yet) that saves an ONNX model with structure information and learned parameters.
@@ -25,7 +24,7 @@ Drop the generated ONNX model file into a ready made Vue.js based [ONNX Runtime 
 And it works :-)
 
 
-## Some details on the ONNX export functionality
+## Details on the ONNX export functionality
 
 Many libraries like Pytorch have an out of the box ONNX export functionality. DJL has ONNX support which allows you to run an existing ONNX model for inference.
 When you define models within DJL in Java the model nicely can be composed out of hierarchically structured blocks. These blocks may use abstracted functions implemented in the underlying engine (MXnet, Pytorch, ...) together with
