@@ -32,7 +32,6 @@ import static ai.enpasos.mnist.blocks.OnnxHelper.createValueInfoProto;
 
 
 public class MnistBlock extends SequentialBlock implements OnnxIO {
-    @Builder()
     public static MnistBlock newMnistBlock() {
         return (MnistBlock) new MnistBlock()
                 .add(Conv2dExt.builder()

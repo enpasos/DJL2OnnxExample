@@ -6,6 +6,8 @@ Suppose you
 
 ## Purpose of this project
 
+![idea](./idea.png)
+
 This is just an example on how to do the ONNX export for a simple MNIST classification model in DJL.
 
 ## How?
