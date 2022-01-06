@@ -5,3 +5,8 @@
 /node_modules
 /data
 /build
+/onnxWithRuntime/data
+/onnxWithRuntime/build
+/onnxWithRuntime/target
+/onnxruntime-web-demo/.idea
+/onnxruntime-web-demo/.vscode
