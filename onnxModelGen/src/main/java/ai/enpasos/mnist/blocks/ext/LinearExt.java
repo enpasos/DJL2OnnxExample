@@ -110,7 +110,6 @@ public class LinearExt extends LinearOpened implements OnnxIO {
                     .addOutput(output.get(0).getName())
                     .build()
             ))
-            .valueInfos(createValueInfoProto(output))
             .build();
     }
 
