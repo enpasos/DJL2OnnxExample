@@ -54,7 +54,6 @@ public class LinearExt extends LinearOpened implements OnnxIO {
         OnnxBlock onnxBlock = OnnxBlock.builder()
             .input(input)
             .output(blockB.getOutput())
-            .valueInfos(createValueInfoProto(blockB.getOutput()))
             .build();
 
         onnxBlock.addChild(blockW);
